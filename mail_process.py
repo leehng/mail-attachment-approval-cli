@@ -12,7 +12,7 @@ load_dotenv()
 def response(receiver_mail, subject):
     # Get credentials from environment variables
     email = os.getenv("EMAIL_USER")
-    key = os.getenv("EMAIL_PASS")
+    key = os.getenv("EMAIL_PASS_PROCESS")
 
     # Static response message (can be extended later)
     message = "We accept the offer"
